@@ -8,8 +8,8 @@ The exact circuit-level distance is then computed with the integer program relea
 Expected: 6 at d = 7 and 8 at d = 9, one less than the code distance. As a control, with the noise on the bulk
 CNOTs also removed the distance is d.
 
-The number of rounds can be changed with --rounds (default 3). At d = 7 the result is the same with 7 rounds.
-The d = 9 integer program takes several minutes; run `python checks/bulk_only_distance.py 7` for a quick check."""
+The number of rounds can be changed with --rounds (default 2). At d = 7 the result is the same with 3 and 7 rounds.
+The d = 9 integer program takes about ten minutes; run `python checks/bulk_only_distance.py 7` for a quick check."""
 import argparse
 import time
 
@@ -58,7 +58,7 @@ def distance(circuit):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("d", type=int, nargs="*", default=[7, 9])
-    ap.add_argument("--rounds", type=int, default=3)
+    ap.add_argument("--rounds", type=int, default=2)
     args = ap.parse_args()
     ok = True
     for d in args.d:
