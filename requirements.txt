@@ -1,0 +1,10 @@
+# Versions used for the note (Python 3.11).
+stim==1.16.0
+ortools==9.15.6755
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.9
+# The next three are imported by the authors' ColorCode class, which provides the lattice layout.
+igraph==1.0.0
+pymatching==2.4.0
+statsmodels==0.15.0

@@ -1,0 +1,5 @@
+external/
+figures/output/
+enum/enum
+__pycache__/
+*.pyc
