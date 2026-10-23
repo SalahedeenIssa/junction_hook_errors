@@ -1,8 +1,5 @@
 # Junction hook errors in the color code
 
-Code for the note *Junction Hook Errors in the Color Code* by Salahedeen Issa and Margaret Martonosi
-(Princeton University).
-
 The note examines the syndrome extraction schedule for the triangular color code proposed by Kishony and Fowler in
 [*Color code off-the-hook: avoiding hook errors with a single auxiliary per plaquette*](https://arxiv.org/abs/2603.28852)
 (arXiv:2603.28852). Under that schedule, every non-corner stabilizer has a weight-2 hook error that, together with
