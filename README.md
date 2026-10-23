@@ -51,7 +51,7 @@ integer program; with d = 7 and 9 only (d = 7 only for `bulk_only_distance.py`),
 minutes. `./run_all.sh` runs every check and figure script.
 
 At d = 7 and 9 the checks go through every enumerated minimum weight logical operator. At d = 11 there are too many
-to enumerate (the logical coset has 2^42 elements), so each question is posed to the CP-SAT solver of OR-Tools as
+to enumerate (the logical coset has 2^45 elements), so each question is posed to the CP-SAT solver of OR-Tools as
 "is there a weight-11 logical operator with these properties?". A "no" from the solver is a proof of infeasibility;
 an instance the solver does not decide is reported as an error, never counted as a "no".
 
